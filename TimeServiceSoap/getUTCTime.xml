@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="f20c9fd0-8da9-463e-b808-d02b72766f60" isOneWay="false" action="http://www.Nanonull.com/TimeService/getUTCTime" name="getUTCTime" bindingOperationName="getUTCTime" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="f20c9fd0-8da9-463e-b808-d02b72766f60fileName">getUTCTime</con:setting>
+  </con:settings>
+</con:operation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="846687d7-006a-4a76-9c4d-a40b0aadcf7e" isOneWay="false" action="http://www.Nanonull.com/TimeService/getTimeZoneTime" name="getTimeZoneTime" bindingOperationName="getTimeZoneTime" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="846687d7-006a-4a76-9c4d-a40b0aadcf7efileName">getTimeZoneTime</con:setting>
+  </con:settings>
+</con:operation>
