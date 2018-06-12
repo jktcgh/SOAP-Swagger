@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:WsdlInterface" id="851ddeb5-3f5e-4078-8691-74645b807cdb" wsaVersion="NONE" name="TimeServiceSoap" type="wsdl" bindingName="{http://www.Nanonull.com/TimeService/}TimeServiceSoap" soapVersion="1_1" anonymous="optional" definition="file:/C:/Users/nagelk/Desktop/Software/SOAP/TimeService.wsdl" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<con:interface xsi:type="con:WsdlInterface" id="851ddeb5-3f5e-4078-8691-74645b807cdb" wsaVersion="NONE" name="TimeServiceSoap" type="wsdl" bindingName="{http://www.Nanonull.com/TimeService/}TimeServiceSoap" soapVersion="1_1" anonymous="optional" definition="file:/C:/Users/nagelk/Desktop/Software/SOAP/TimeService.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="851ddeb5-3f5e-4078-8691-74645b807cdbfileName">TimeServiceSoap</con:setting>
   </con:settings>
