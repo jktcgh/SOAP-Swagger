@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="search" id="ff34d6d7-3704-461b-9856-3f4ada474e88" interface="SampleServiceSoapBinding" operation="search" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ff34d6d7-3704-461b-9856-3f4ada474e88fileName">search</con:setting>
+  </con:settings>
+  <con:defaultResponse>Response 1</con:defaultResponse>
+  <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
+  <con:dispatchConfig/>
+  <con:dispatchXPath/>
+  <con:routeScript/>
+  <con:response name="Response 1" id="5e431e33-2f37-475b-93ce-e209dc43e5e0" httpResponseStatus="200" encoding="UTF-8">
+    <con:settings/>
+    <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sam:searchResponse>
+         <sam:searchResponseContent>
+            <!--1 or more repetitions:-->
+            <item>
+               <id>?</id>
+               <description>?</description>
+               <price>?</price>
+            </item>
+         </sam:searchResponseContent>
+      </sam:searchResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.soapui.org/sample/search"/>
+  </con:response>
+</con:mockOperation>

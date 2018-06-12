@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/store/order" path="/store/order" id="319be8d0-4301-4456-9675-fa8a6b825ba9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/store/order" path="/store/order" id="319be8d0-4301-4456-9675-fa8a6b825ba9" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="319be8d0-4301-4456-9675-fa8a6b825ba9fileName">%2Fstore%2Forder</con:setting>
   </con:settings>
@@ -47,10 +47,6 @@
     <con:request name="Request 1" id="85103910-23bc-4f6f-9d35-bc8d5e8d0b94" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
-      <con:credentials>
-        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
-        <con:authType>No Authorization</con:authType>
-      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

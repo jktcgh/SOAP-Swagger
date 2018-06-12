@@ -50,6 +50,16 @@
           <con:configuration/>
         </con:assertion>
         <con:assertion type="SOAP Fault Assertion" id="379a8965-0d05-4e61-8255-ecd101fc54db" name="Not SOAP Fault"/>
+        <con:assertion type="XPath Match" id="16ddf3c0-c059-467c-8dc7-5b3d7e04b50e" name="Match content of [AddResult]">
+          <con:configuration>
+            <path>declare namespace ns1='http://tempuri.org/';
+//ns1:AddResponse[1]/ns1:AddResult[1]/text()</path>
+            <content>${CalculatorData#AddResult}</content>
+            <allowWildcards>false</allowWildcards>
+            <ignoreNamspaceDifferences>false</ignoreNamspaceDifferences>
+            <ignoreComments>false</ignoreComments>
+          </con:configuration>
+        </con:assertion>
         <con:credentials>
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
@@ -70,4 +80,19 @@
   </con:testStep>
   <con:properties/>
   <con:reportParameters/>
+  <con:breakPoints>
+    <con:testStepId>7dc92d62-8f99-4c25-be93-aca3b6761fc9</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>db3ddff0-09c9-452d-8639-d0c38d119ab9</con:testStepId>
+    <con:status>ENABLED</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>c68453ee-fefd-46a9-bd40-4f4b0bdf6300</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
 </con:testCase>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="6cd2d05d-8cb2-4902-9b13-65e180b8da8c" isOneWay="false" action="http://www.Nanonull.com/TimeService/getServerTime" name="getServerTime" bindingOperationName="getServerTime" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation id="6cd2d05d-8cb2-4902-9b13-65e180b8da8c" isOneWay="false" action="http://www.Nanonull.com/TimeService/getServerTime" name="getServerTime" bindingOperationName="getServerTime" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="6cd2d05d-8cb2-4902-9b13-65e180b8da8cfileName">getServerTime</con:setting>
   </con:settings>

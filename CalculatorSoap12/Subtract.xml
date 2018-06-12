@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="6aa9c6b7-fae7-451b-a40e-32c857127809" isOneWay="false" action="http://tempuri.org/Subtract" name="Subtract" bindingOperationName="Subtract" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:operation id="6aa9c6b7-fae7-451b-a40e-32c857127809" isOneWay="false" action="http://tempuri.org/Subtract" name="Subtract" bindingOperationName="Subtract" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="6aa9c6b7-fae7-451b-a40e-32c857127809fileName">Subtract</con:setting>
   </con:settings>
   <con:call id="5a4d4abb-2feb-493e-9941-f7d9f18db4b7" name="Request 1">
-    <con:settings/>
+    <con:settings>
+      <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+    </con:settings>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://www.dneonline.com/calculator.asmx</con:endpoint>
-    <con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">\r
-   <soap:Header/>\r
-   <soap:Body>\r
-      <tem:Subtract>\r
-         <tem:intA>?</tem:intA>\r
-         <tem:intB>?</tem:intB>\r
-      </tem:Subtract>\r
-   </soap:Body>\r
+    <con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:Subtract>
+         <tem:intA>?</tem:intA>
+         <tem:intB>?</tem:intB>
+      </tem:Subtract>
+   </soap:Body>
 </soap:Envelope>]]></con:request>
     <con:credentials>
-      <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>
     <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>

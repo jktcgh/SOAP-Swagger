@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:interface xsi:type="con:WsdlInterface" id="7275b365-e93e-4c05-a1a7-0bce828247f4" wsaVersion="NONE" name="CalculatorSoap12" type="wsdl" bindingName="{http://tempuri.org/}CalculatorSoap12" soapVersion="1_2" anonymous="optional" definition="file:/C:/Users/nagelk/Desktop/Software/SOAP/Calculator.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+<con:interface xsi:type="con:WsdlInterface" id="7275b365-e93e-4c05-a1a7-0bce828247f4" wsaVersion="NONE" name="CalculatorSoap12" type="wsdl" bindingName="{http://tempuri.org/}CalculatorSoap12" soapVersion="1_2" anonymous="optional" definition="file:/C:/Users/nagelk/Desktop/Software/SOAP/Calculator.wsdl" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <con:settings>
     <con:setting id="7275b365-e93e-4c05-a1a7-0bce828247f4fileName">CalculatorSoap12</con:setting>
   </con:settings>
