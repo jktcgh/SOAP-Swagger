@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="684e7721-41d0-434d-a555-a302c25d0127" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="getServerCity" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="684e7721-41d0-434d-a555-a302c25d0127fileName">getServerCity</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="request" id="f78ecb01-1d0e-4eee-b66b-3f97523d9674" name="getServerCity">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>TimeServiceSoap</con:interface>
+      <con:operation>getServerCity</con:operation>
+      <con:request name="getServerCity" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="fca6f03d-9f42-4483-ace7-6b566d310b72">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.nanonull.com/TimeService/TimeService.asmx</con:endpoint>
+        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tim="http://www.Nanonull.com/TimeService/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tim:getServerCity/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" id="6e601094-b946-4755-95d7-ba7b4a369db2" name="SOAP Response"/>
+        <con:assertion type="Schema Compliance" id="8a4cec6d-bbf5-4131-a442-14f07d2fbc81" name="Schema Compliance">
+          <con:configuration/>
+        </con:assertion>
+        <con:assertion type="SOAP Fault Assertion" id="4bb4023c-9113-40ae-ac5e-c08b98467868" name="Not SOAP Fault"/>
+        <con:assertion type="Response SLA Assertion" id="2c804cb0-57b7-4ab4-8bb2-4ed025b7dc67" name="Response SLA">
+          <con:configuration>
+            <SLA>20</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.Nanonull.com/TimeService/getServerCity"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

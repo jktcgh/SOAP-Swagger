@@ -33,3 +33,8 @@ TimeServiceSoap\getTimeZoneTime.xml
 TimeServiceSoap\getUTCTime.xml
 CalculatorSoap1\DataDriven.xml
 SampleServiceSoapBinding1\Login%26Logout.xml
+TimeServiceSoap1\getServerCity.xml
+SampleServiceSoapBinding-Virtual-Service\buy.xml
+SampleServiceSoapBinding-Virtual-Service\login.xml
+SampleServiceSoapBinding-Virtual-Service\logout.xml
+SampleServiceSoapBinding-Virtual-Service\search.xml

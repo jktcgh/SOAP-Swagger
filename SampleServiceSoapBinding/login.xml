@@ -4,17 +4,19 @@
     <con:setting id="f44e74f5-f936-469f-bb28-b74bfe604cd4fileName">login</con:setting>
   </con:settings>
   <con:call id="4a82ec85-4acf-461d-8105-b068e51430cb" name="Request 1">
-    <con:settings/>
+    <con:settings>
+      <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+    </con:settings>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://www.soapui.org/sample</con:endpoint>
-    <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">\r
-   <soapenv:Header/>\r
-   <soapenv:Body>\r
-      <sam:login>\r
-         <username>?</username>\r
-         <password>?</password>\r
-      </sam:login>\r
-   </soapenv:Body>\r
+    <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sam:login>
+         <username>?</username>
+         <password>?</password>
+      </sam:login>
+   </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
     <con:credentials>
       <con:authType>No Authorization</con:authType>

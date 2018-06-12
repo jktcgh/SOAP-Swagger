@@ -3,9 +3,9 @@
   <con:settings>
     <con:setting id="697f3572-5843-4a98-838e-5b4caa3def11fileName">SampleServiceSoapBinding</con:setting>
   </con:settings>
-  <con:definitionCache type="TEXT" rootPart="file:/C:/Users/nagelk/Desktop/Software/SOAP/WSDL-service.wsdl">
+  <con:definitionCache type="TEXT" rootPart="file:\C:\Users\nagelk\Desktop\Software\SOAP\WSDL-service.wsdl">
     <con:part>
-      <con:url>file:/C:/Users/nagelk/Desktop/Software/SOAP/WSDL-service.wsdl</con:url>
+      <con:url>file:\C:\Users\nagelk\Desktop\Software\SOAP\WSDL-service.wsdl</con:url>
       <con:content><![CDATA[<wsdl:definitions name="sample" targetNamespace="http://www.soapui.org/sample/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://www.soapui.org/sample/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
   <wsdl:types>
     <xsd:schema targetNamespace="http://www.soapui.org/sample/">
@@ -161,6 +161,7 @@
     </con:part>
   </con:definitionCache>
   <con:endpoints>
+    <con:endpoint>http://localhost:8088/</con:endpoint>
     <con:endpoint>http://www.soapui.org/sample</con:endpoint>
   </con:endpoints>
 </con:interface>

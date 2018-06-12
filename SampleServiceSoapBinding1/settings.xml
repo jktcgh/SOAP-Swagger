@@ -3,6 +3,7 @@
   <con:settings>
     <con:setting id="db167f18-bfce-45b4-af11-5692939801bdfileName">SampleServiceSoapBinding1</con:setting>
   </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:runType>SEQUENTIAL</con:runType>
   <con:properties/>
   <con:reportParameters/>
