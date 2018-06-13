@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/pet/findByStatus" path="/pet/findByStatus" id="a6156f96-ade3-4c1f-9ada-0cc784488572" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/pet/findByStatus" path="/pet/findByStatus" id="a6156f96-ade3-4c1f-9ada-0cc784488572" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="a6156f96-ade3-4c1f-9ada-0cc784488572fileName">%2Fpet%2FfindByStatus</con:setting>
   </con:settings>
@@ -71,6 +71,10 @@ Finds Pets by status</con:description>
     <con:request name="Request 1" id="c2a66041-3850-44d6-8ed2-b81e39cdec01" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

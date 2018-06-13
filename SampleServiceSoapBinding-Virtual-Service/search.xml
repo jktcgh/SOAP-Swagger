@@ -8,7 +8,7 @@
   <con:dispatchConfig/>
   <con:dispatchXPath/>
   <con:routeScript/>
-  <con:response name="Response 1" id="5e431e33-2f37-475b-93ce-e209dc43e5e0" httpResponseStatus="200" encoding="UTF-8">
+  <con:response name="Response 1" id="5e431e33-2f37-475b-93ce-e209dc43e5e0" httpResponseStatus="200" encoding="UTF-8" dataSource="">
     <con:settings/>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
    <soapenv:Header/>

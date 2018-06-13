@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="68f28cc3-d049-491b-b562-03d917df8bad" isOneWay="false" action="http://www.Nanonull.com/TimeService/getServerCity" name="getServerCity" bindingOperationName="getServerCity" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
+<con:operation id="68f28cc3-d049-491b-b562-03d917df8bad" isOneWay="false" action="http://www.Nanonull.com/TimeService/getServerCity" name="getServerCity" bindingOperationName="getServerCity" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="68f28cc3-d049-491b-b562-03d917df8badfileName">getServerCity</con:setting>
   </con:settings>
@@ -14,6 +14,7 @@
    </soapenv:Body>\r
 </soapenv:Envelope>]]></con:request>
     <con:credentials>
+      <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
       <con:authType>No Authorization</con:authType>
     </con:credentials>
     <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>

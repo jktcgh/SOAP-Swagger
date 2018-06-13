@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/pet" path="/pet" id="1b789f62-157b-4ec7-b7fc-a5b51bc4f9a9" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/pet" path="/pet" id="1b789f62-157b-4ec7-b7fc-a5b51bc4f9a9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="1b789f62-157b-4ec7-b7fc-a5b51bc4f9a9fileName">%2Fpet</con:setting>
   </con:settings>
@@ -66,7 +66,7 @@
       <con:mediaType>application/xml</con:mediaType>
       <con:params/>
     </con:representation>
-    <con:request name="Request 1" id="ec5cdd03-450b-4434-be4e-eabe96c6baca" mediaType="application/json">
+    <con:request name="Request 1" id="ec5cdd03-450b-4434-be4e-eabe96c6baca" mediaType="application/json" postQueryString="false">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
       <con:request>{\r
@@ -83,9 +83,14 @@
   } ],\r
   "status" : "available"\r
 }</con:request>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters/>
     </con:request>
-    <con:request name="Request 2" id="8c321c36-8b23-4cfa-b51b-e0af72c85dca" mediaType="application/xml">
+    <con:request name="Request 2" id="8c321c36-8b23-4cfa-b51b-e0af72c85dca" mediaType="application/xml" postQueryString="false">
       <con:settings/>
       <con:endpoint>http://petstore.swagger.io</con:endpoint>
       <con:request><![CDATA[<Pet>\r
@@ -106,6 +111,11 @@
    </tag>\r
    <status>available</status>\r
 </Pet>]]></con:request>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters/>
     </con:request>
   </con:method>
@@ -208,6 +218,10 @@
   } ],\r
   "status" : "available"\r
 }</con:request>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
     <con:request name="Request 2" id="7ca2555d-0525-4d5c-bb16-9b8bcb4daac3" mediaType="application/xml">
@@ -231,6 +245,10 @@
    </tag>\r
    <status>available</status>\r
 </Pet>]]></con:request>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

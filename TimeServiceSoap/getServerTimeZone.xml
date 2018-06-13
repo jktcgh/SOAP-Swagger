@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="23e3edad-a3eb-4bd4-9fd4-aec9036606d0" isOneWay="false" action="http://www.Nanonull.com/TimeService/getServerTimeZone" name="getServerTimeZone" bindingOperationName="getServerTimeZone" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+<con:operation id="23e3edad-a3eb-4bd4-9fd4-aec9036606d0" isOneWay="false" action="http://www.Nanonull.com/TimeService/getServerTimeZone" name="getServerTimeZone" bindingOperationName="getServerTimeZone" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="23e3edad-a3eb-4bd4-9fd4-aec9036606d0fileName">getServerTimeZone</con:setting>
   </con:settings>
