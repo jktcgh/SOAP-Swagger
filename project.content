@@ -39,7 +39,7 @@ TimeServiceSoap1\getServerCity.xml
 Swagger-Petstore1\AddGetDeletePet.xml
 AddGetDeletePet.xml
 Login%26Logout.xml
+ServiceSoapBinding-MockService\buy.xml
 ServiceSoapBinding-MockService\login.xml
 ServiceSoapBinding-MockService\logout.xml
 ServiceSoapBinding-MockService\search.xml
-ServiceSoapBinding-MockService\buy.xml
