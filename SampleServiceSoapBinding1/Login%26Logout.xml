@@ -4,6 +4,14 @@
     <con:setting id="8cfb46a0-1459-4e15-8040-597e5cb5c064fileName">Login%26Logout</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="VirtRunnerTestStep" name="Start Virtual Service" id="181be321-65c0-474a-9462-33a8f0c57cbd">
+    <con:settings/>
+    <con:config>
+      <url>localhost</url>
+      <server>SampleServiceSoapBinding Virtual Service</server>
+      <action>run</action>
+    </con:config>
+  </con:testStep>
   <con:testStep type="request" id="a314eae2-ebd0-49a9-aa1b-021f2defe3e3" name="Login">
     <con:settings/>
     <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -73,10 +81,28 @@
       </con:request>
     </con:config>
   </con:testStep>
+  <con:testStep type="VirtRunnerTestStep" name="Stop Virtual Service" id="bb92ff1a-d765-4994-8a92-666e1084b65f">
+    <con:settings/>
+    <con:config>
+      <url>localhost</url>
+      <server>SampleServiceSoapBinding Virtual Service</server>
+      <action>stop</action>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
   <con:breakPoints>
     <con:testStepId>a314eae2-ebd0-49a9-aa1b-021f2defe3e3</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>181be321-65c0-474a-9462-33a8f0c57cbd</con:testStepId>
+    <con:status>ENABLED</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>c2bc546b-0ad4-4ea9-90d7-88e6647e6eaf</con:testStepId>
     <con:status>NONE</con:status>
     <con:properties/>
   </con:breakPoints>
