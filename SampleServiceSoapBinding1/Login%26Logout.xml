@@ -8,7 +8,7 @@
     <con:settings/>
     <con:config>
       <url>localhost</url>
-      <server>SampleServiceSoapBinding Virtual Service</server>
+      <server>mockServiceSoapBinding</server>
       <action>run</action>
     </con:config>
   </con:testStep>
@@ -73,7 +73,7 @@
    <soapenv:Header/>
    <soapenv:Body>
       <sam:logout>
-         <sessionid>20180611</sessionid>
+         <sessionid>${#TestCase#SessionID}</sessionid>
       </sam:logout>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
@@ -107,11 +107,16 @@
     <con:settings/>
     <con:config>
       <url>localhost</url>
-      <server>SampleServiceSoapBinding Virtual Service</server>
+      <server>mockServiceSoapBinding</server>
       <action>stop</action>
     </con:config>
   </con:testStep>
-  <con:properties/>
+  <con:properties>
+    <con:property>
+      <con:name>SessionID</con:name>
+      <con:value>888999273</con:value>
+    </con:property>
+  </con:properties>
   <con:reportParameters/>
   <con:breakPoints>
     <con:testStepId>a314eae2-ebd0-49a9-aa1b-021f2defe3e3</con:testStepId>
@@ -125,6 +130,11 @@
   </con:breakPoints>
   <con:breakPoints>
     <con:testStepId>c2bc546b-0ad4-4ea9-90d7-88e6647e6eaf</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>bb92ff1a-d765-4994-8a92-666e1084b65f</con:testStepId>
     <con:status>NONE</con:status>
     <con:properties/>
   </con:breakPoints>

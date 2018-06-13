@@ -37,9 +37,9 @@ CalculatorSoap1\DataDriven.xml
 SampleServiceSoapBinding1\Login%26Logout.xml
 TimeServiceSoap1\getServerCity.xml
 Swagger-Petstore1\AddGetDeletePet.xml
-Login%26Logout.xml
 AddGetDeletePet.xml
-SampleServiceSoapBinding-Virtual-Service\buy.xml
-SampleServiceSoapBinding-Virtual-Service\login.xml
-SampleServiceSoapBinding-Virtual-Service\logout.xml
-SampleServiceSoapBinding-Virtual-Service\search.xml
+Login%26Logout.xml
+ServiceSoapBinding-MockService\login.xml
+ServiceSoapBinding-MockService\logout.xml
+ServiceSoapBinding-MockService\search.xml
+ServiceSoapBinding-MockService\buy.xml
