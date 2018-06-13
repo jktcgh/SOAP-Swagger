@@ -34,8 +34,7 @@ TimeServiceSoap\getUTCTime.xml
 CalculatorSoap1\DataDriven.xml
 SampleServiceSoapBinding1\Login%26Logout.xml
 TimeServiceSoap1\getServerCity.xml
-Swagger-Petstore1\addPet---JSON.xml
-Swagger-Petstore1\DeletePet.xml
+Swagger-Petstore1\AddGetDeletePet.xml
 SampleServiceSoapBinding-Virtual-Service\buy.xml
 SampleServiceSoapBinding-Virtual-Service\login.xml
 SampleServiceSoapBinding-Virtual-Service\logout.xml
