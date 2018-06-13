@@ -51,6 +51,9 @@
 // pw.close()
 // fos.close()</con:script>
   </con:eventHandlers>
+  <con:sensitiveInformation>
+    <ProjectSpecificExposureList>null###null</ProjectSpecificExposureList>
+  </con:sensitiveInformation>
   <con:environment id="d8f520a3-f5a4-430e-a751-76a28e2dc7b3" name="QA">
     <con:service type="SOAP" name="CalculatorSoap12">
       <con:endpoint authProfile="No Authorization"/>
